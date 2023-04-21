@@ -5042,16 +5042,18 @@ body::after {
 }
 
 @media (max-width: 61.99875em) and ((min-width: 25em)) {
-  .certificate-page .certificate--big .certificate__subtitle {
-    font-size: 1rem;
-  }
-
   .certificate-page .certificate--big .certificate__subtitle:not(:last-child) {
     margin-bottom: 1.25rem;
   }
 
   .certificate-page .certificate--big .certificate__about p {
     font-size: 0.6875rem;
+  }
+}
+
+@media (max-width: 61.99875em) and ((min-width: 37.5em)) {
+  .certificate-page .certificate--big .certificate__subtitle {
+    font-size: 1rem;
   }
 }
 
