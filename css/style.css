@@ -4,9 +4,30 @@
 .top-menu-wrap {
   flex: 1 1 auto;
 }
+.page-pack .favorites .right .line .search-wrap .wrap {
+  width: unset !important;
+  flex: 1 1 auto;
+}
+.page-pack .title-wrap {
+  width: unset !important;
+  margin-right: 20px !important;
+}
+.page-pack .favorites .right .line.is-back .search-wrap {
+  flex-wrap: nowrap !important;
+}
 @media (max-width: 1400px) {
   .volume-wrap {
     display: block !important;
   }
 }
 
+@media (min-width: 767px) {
+  .big-filter-wrap-app {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .title-wrap {
+    width: unset !important;
+  }
+}
