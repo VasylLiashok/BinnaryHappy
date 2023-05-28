@@ -1,1 +1,12 @@
+.page-category-inner .search-wrap {
+  display: none;
+}
+.top-menu-wrap {
+  flex: 1 1 auto;
+}
+@media (max-width: 1400px) {
+  .volume-wrap {
+    display: block !important;
+  }
+}
 
