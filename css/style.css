@@ -62,11 +62,22 @@ margin: 0 !important;
   }
   .music-block .item-music .name-file {
   width: unset !important;
-}
+  }
+  .electron .page-item .music-block .item-music .audiogallery{
+    width: 100px !important;
+    min-width: 100px !important;
+  }
 }
 
 @media (max-width: 568px) {
 /*   .music-block .skin-wave.skin-wave-mode-normal .ap-controls .con-controls {
     top: 35% !important;
   } */
+  .music-block .audioplayer.skin-wave.under-400 .audioplayer-inner .the-thumb-con:not(.a){
+    margin-right: 10px !important;
+  }
+    .electron .page-item .music-block .item-music .audiogallery{
+    width: 85px !important;
+    min-width: 85px !important;
+  }
 }
