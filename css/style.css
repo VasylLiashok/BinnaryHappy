@@ -15,6 +15,10 @@ margin: 0 !important;
 .page-pack .title-wrap {
   width: unset !important;
   margin-right: 20px !important;
+  gap: 15px;
+}
+.page-pack .title-wrap div{
+  white-space: nowrap;
 }
 .page-pack .favorites .right .line.is-back .search-wrap {
   flex-wrap: nowrap !important;
@@ -79,5 +83,8 @@ margin: 0 !important;
     .electron .page-item .music-block .item-music .audiogallery{
     width: 85px !important;
     min-width: 85px !important;
+  }
+  .electron .page-item .music-block .item-music .name-file{
+    width: 47% !important;
   }
 }
