@@ -15,6 +15,24 @@
 .page-pack .favorites .right .line.is-back .search-wrap {
   flex-wrap: nowrap !important;
 }
+.music-block .item-music {
+  gap: 20px;
+  justify-content: stretch !important;
+}
+.music-block .item-music .name-file {
+  flex: 1 1 auto;
+}
+.music-block .skin-wave.skin-wave-mode-normal .ap-controls .con-controls {
+  top: 35% !important;
+}
+@media (max-width: 1900px) {
+  .volume-wrap {
+    display: block !important;
+  }
+  .music-block .item-music {
+    justify-content: stretch !important;
+  }
+}
 @media (max-width: 1400px) {
   .volume-wrap {
     display: block !important;
