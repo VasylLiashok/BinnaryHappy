@@ -1,7 +1,9 @@
 .page-category-inner .top-line .search-wrap {
   display: none !important;
 }
-
+.top-line .content-width .volume-wrap{
+margin: 0 !important;
+}
 .top-menu-wrap {
   flex: 1 1 auto;
 }
